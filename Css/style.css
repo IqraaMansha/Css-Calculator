@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
 
-* 
-{
-	margin: 0;
-	padding: 0;
-	font-family: 'Roboto', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
-body
-{
+
+body {
     background: #e8eaec;
 }
-.iphone-x
-{
+
+.iphone-x {
     margin-top: 20px;
 }
-.iphone-x .screen
-{
+
+.iphone-x .screen {
     width: 42%;
     height: 625px;
     margin: 0 auto;
@@ -25,21 +24,21 @@ body
     max-width: 310px;
     border-radius: 44px;
     background: #e8eaec;
-    box-shadow: 
-    12px 12px 32px rgba(13,39,80,0.25),
-    -10px 10px 15px #fff
+    box-shadow:
+        12px 12px 32px rgba(13, 39, 80, 0.25),
+        -10px 10px 15px #fff
 }
-.screen .notch
-{
+
+.screen .notch {
     width: 159px;
     height: 30px;
     margin: 0px auto;
     background: #e8eaece1;
     border-bottom-right-radius: 15px;
-    border-bottom-left-radius:15px ;
+    border-bottom-left-radius: 15px;
 }
-.sound
-{
+
+.sound {
     top: 10px;
     left: 54px;
     width: 40px;
@@ -48,8 +47,8 @@ body
     background: #222;
     border-radius: 10px;
 }
-.camera
-{
+
+.camera {
     top: 2px;
     left: 110px;
     width: 10px;
@@ -58,8 +57,8 @@ body
     background: #222;
     border-radius: 100px;
 }
-.time
-{
+
+.time {
     color: #000;
     width: 60px;
     font-size: 11px;
@@ -67,27 +66,27 @@ body
     background: transparent;
     margin-left: 18px;
 }
-.battery
-{
-    margin-top:-20px;
+
+.battery {
+    margin-top: -20px;
 }
-.battery i
-{
-    color: rgba(0,0,0,0.548);
+
+.battery i {
+    color: rgba(0, 0, 0, 0.548);
     margin-left: 230px !important;
 }
-.wifi
-{
+
+.wifi {
     margin-top: -22px !important;
     margin-left: 260px;
 }
-.wifi i
-{
-    color: rgb(0,0,0);
+
+.wifi i {
+    color: rgb(0, 0, 0);
     margin-top: -20px;
 }
-.top-nav
-{
+
+.top-nav {
     width: 100%;
     height: 40px;
     display: -webkit-box;
@@ -103,8 +102,8 @@ body
     -ms-flex-pack: distribute;
     justify-content: space-around;
 }
-.area
-{
+
+.area {
     min-width: 50% !important;
     width: 93% !important;
     min-height: 120px !important;
@@ -121,33 +120,33 @@ body
     background: #e8eaec;
     border-radius: 10px;
     padding: 12px;
-    box-shadow: 
-    6px 6px 8px rgba(13, 39, 80, 0.25),
-    -6px -6px 10px #fff,
-    inset -8px -8px 12px rgba(255,255,255,0.7),
-    inset 5px 5px 8px rgba(13,39,80,0.2);
+    box-shadow:
+        6px 6px 8px rgba(13, 39, 80, 0.25),
+        -6px -6px 10px #fff,
+        inset -8px -8px 12px rgba(255, 255, 255, 0.7),
+        inset 5px 5px 8px rgba(13, 39, 80, 0.2);
 
 }
-.calculator
-{
+
+.calculator {
     margin: 0;
     box-sizing: content-box;
 }
-.key
-{
-    float:  left !important;
+
+.key {
+    float: left !important;
     font-size: 15pt;
     display: flex !important;
     margin: -5%;
     margin-left: auto !important;
     margin-right: auto !important;
 }
+
 .first-col,
 .second-col,
 .third-col,
 .fourth-col,
-.fifth-col
-{
+.fifth-col {
     padding: 10px;
     white-space: wrap;
     margin: -9.5px;
@@ -155,8 +154,8 @@ body
     margin-top: 20px !important;
     justify-content: space-between !important;
 }
-.button
-{
+
+.button {
     display: block;
     padding-left: 40px;
     min-height: 40px;
@@ -166,8 +165,8 @@ body
     margin-top: 20px;
     justify-content: space-between !important;
 }
-button
-{
+
+button {
     position: relative;
     margin-left: -54px !important;
     min-width: 45px;
@@ -181,69 +180,66 @@ button
     border-radius: 10px !important;
     height: 45px;
     outline: none;
-    font-weight:  bold !important;
+    font-weight: bold !important;
     font-size: 14pt !important;
-    box-shadow: 
-    4px 4px 8px rgba(13, 39,80,0.25),
-    -4px 4px 8px #fff;
+    box-shadow:
+        4px 4px 8px rgba(13, 39, 80, 0.25),
+        -4px 4px 8px #fff;
 }
-.btn-work
-{
+
+.btn-work {
     color: #0b254e !important;
 }
-.btn-equal
-{
+
+.btn-equal {
     color: #0b254e !important;
     height: 120px !important;
 }
-button:focus
-{
+
+button:focus {
     cursor: pointer;
     outline: none !important;
     border: none !important;
 
 }
-button:active
-{
-    box-shadow: 
-    -3px -3px 7px #a0a0a032,
-    3px 3px 5px rgba(94, 104, 121, 0.417);
+
+button:active {
+    box-shadow:
+        -3px -3px 7px #a0a0a032,
+        3px 3px 5px rgba(94, 104, 121, 0.417);
     outline: none !important;
     border: none !important;
 }
-button:hover
-{
+
+button:hover {
     color: #696a6a !important;
 }
+
 .btn-work:hover,
-.btn-equal:hover
-{
-    color:#0b254e !important;
+.btn-equal:hover {
+    color: #0b254e !important;
 }
-.home
-{
+
+.home {
     margin-top: 382px;
     margin-left: 72px;
     font-size: 30px;
     cursor: pointer;
     color: #0b254e;
 }
-.menu
-{
+
+.menu {
     margin-top: 392px;
     margin-left: -275px;
     font-size: 20px;
     cursor: pointer;
     color: #0b254e;
 }
-.back
-{
+
+.back {
     margin-top: 392px;
     margin-left: 75px;
     font-size: 20px;
     cursor: pointer;
     color: #0b254e;
 }
-
-
-
